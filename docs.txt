@@ -3,3 +3,6 @@
 3. npx tailwindcss init
 4. npm install -D tailwindcss
 5. npm run build
+   ************settings.json************
+   "css.validate": false,
+   "tailwindCSS.emmetCompletions": true,
