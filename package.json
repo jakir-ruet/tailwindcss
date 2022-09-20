@@ -4,8 +4,11 @@
   "description": "the basic tailwind css course",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tailwindcss -i ./src/main.css -o ./output/main.css -w"
   },
   "author": "Sun IT Limited",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
 }

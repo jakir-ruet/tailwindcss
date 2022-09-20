@@ -1,5 +1,5 @@
 1. install Node JS
 2. npm init
-3. npm install -D tailwindcss
-4. npx tailwindcss init
-5. 
+3. npx tailwindcss init
+4. npm install -D tailwindcss
+5. npm run build
