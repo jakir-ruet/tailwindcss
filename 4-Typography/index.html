@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Typography</title>
+   <link rel="stylesheet" href="../libs/fontawesome/css/all.min.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+   <script src="https://cdn.tailwindcss.com"></script>
+   <script>
+      tailwind.config = {
+         theme: {
+            fontFamily: {
+               'sans': ['ui-sans-serif', 'system-ui'],
+               'serif': ['Aboreto', 'Georgia'],
+               'mono': ['ui-monospace', 'SFMono-Regular'],
+               'display': ['Oswald'],
+               'body': ['"Open Sans"'],
+            }
+         }
+      }
+   </script>
+</head>
+
+<body class="container mx-auto">
+   <!-- Font Family -->
+   <div class="font-sans hover:font-serif">I am Tainwind CSS</div>
+   <div class="font-serif">I am Tainwind CSS</div>
+   <div class="font-mono">I am Tainwind CSS</div>
+   <div class="font-mono">I am Tainwind CSS</div>
+
+   <!-- Font Size -->
+   <div class="text-xs">Hello, I am font size</div>
+   <div class="text-sm">Hello, I am font size</div>
+   <div class="text-base">Hello, I am font size</div>
+   <div class="text-lg">Hello, I am font size</div>
+   <div class="text-xl">Hello, I am font size</div>
+   <div class="text-2xl">Hello, I am font size</div>
+   <div class="text-3xl">Hello, I am font size</div>
+
+   <!-- Font Weight -->
+   <div class="font-light">Hello, I am font weight</div>
+   <div class="font-normal">Hello, I am font weight</div>
+   <div class="font-medium">Hello, I am font weight</div>
+   <div class="font-semibold">Hello, I am font weight</div>
+   <div class="font-bold">Hello, I am font weight</div>
+
+   <!-- Letter Spacing -->
+   <div class="tracking-tight">I am letter spacing</div>
+   <div class="tracking-norman">I am letter spacing</div>
+   <div class="tracking-wide">I am letter spacing</div>
+
+   <!-- Text Align -->
+   <div class="text-left">I am text align</div>
+   <div class="text-center">I am text align</div>
+   <div class="text-right">I am text align</div>
+
+   <!-- Text Decoration -->
+   <div class="underline decoration-4 decoration-blue-300">Hello, I am text decoration</div>
+   <div class="underline decoration-dotted">Hello, I am text decoration</div>
+   <div class="underline decoration-dash decoration-4">Hello, I am text decoration</div>
+   <div class="underline decoration-4 decoration-blue-500 underline-offset-8">Hello, I am text decoration</div>
+   <div class="underline decoration-4 decoration-blue-500 underline-offset-1">Hello, I am text decoration</div>
+
+   <!-- Text Transform -->
+   <p class="normal-case">I am text transform</p>
+   <p class="uppercase">I am text transform</p>
+   <p class="lowercase">I am text transform</p>
+   <p class="capitalize">I am text transform</p>
+</body>
+</html>
