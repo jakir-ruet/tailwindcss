@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Layout & Position</title>
+   <link rel="stylesheet" href="../libs/fontawesome/css/all.min.css">
+   <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body style="margin-bottom: 50px;">
+   <!-- top right corner -->
+   <p>top right corner</p>
+   <div class="relative h-32 w-32 bg-green-500">
+      <p>Parent</p>
+      <div class="absolute left-0 top-0 h-16 w-16 bg-red-500">
+         <p>Child</p>
+      </div>
+   </div>
+   <!-- top left corner -->
+   <p>top left corner</p>
+   <div class="relative h-32 w-32 bg-green-500">
+      <p>Parent</p>
+      <div class="absolute right-0 top-0 h-16 w-16 bg-red-500">
+         <p>Child</p>
+      </div>
+   </div>
+   <!-- right bottom corner -->
+   <p>right bottom corner</p>
+   <div class="relative h-32 w-32 bg-green-500">
+      <p>Parent</p>
+      <div class="absolute right-0 bottom-0 h-16 w-16 bg-red-500">
+         <p>Child</p>
+      </div>
+   </div>
+   <!-- left bottom corner -->
+   <p>left bottom corner</p>
+   <div class="relative h-32 w-32 bg-green-500">
+      <p>Parent</p>
+      <div class="absolute left-0 bottom-0 h-16 w-16 bg-red-500">
+         <p>Child</p>
+      </div>
+   </div>
+   <!-- span top edge -->
+   <p>span top edge</p>
+   <div class="relative h-32 w-32 bg-green-500">
+      <p>Parent</p>
+      <div class="absolute inset-x-0 top-0 h-16 bg-red-500">
+         <p>Child</p>
+      </div>
+   </div>
+   <!-- span right edgr -->
+   <p>span right corner</p>
+   <div class="relative h-32 w-32 bg-green-500">
+      <p>Parent</p>
+      <div class="absolute inset-y-0 right-0 w-16 bg-red-500">
+         <p>Child</p>
+      </div>
+   </div>
+   <!-- span bottom edge -->
+   <p>span bottom corner</p>
+   <div class="relative h-32 w-32 bg-green-500">
+      <p>Parent</p>
+      <div class="absolute inset-x-0 bottom-0 h-16 bg-red-500">
+         <p>Child</p>
+      </div>
+   </div>
+   <!-- span left edge -->
+   <p>span left edge</p>
+   <div class="relative h-32 w-32 bg-green-500">
+      <p>Parent</p>
+      <div class="absolute inset-y-0 left-0 w-16 bg-red-500">
+         <p>Child</p>
+      </div>
+   </div>
+</body>
+</html>
