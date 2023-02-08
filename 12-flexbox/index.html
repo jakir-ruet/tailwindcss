@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>The Flexbox</title>
+   <link rel="stylesheet" href="../libs/fontawesome/css/all.min.css">
+   <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body style="container mx-auto margin-bottom: 50px;">
+   <p>Flex Center</p>
+   <div class="flex items-center justify-center gap-2">
+      <div class="p-10 bg-red-500">01</div>
+      <div class="p-10 bg-green-500">02</div>
+      <div class="p-10 bg-blue-500">03</div>
+      <div class="p-10 bg-red-500">04</div>
+   </div>
+   <p>Flex justify-end</p>
+   <div class="flex items-center justify-end gap-2">
+      <div class="p-10 bg-red-500">01</div>
+      <div class="p-10 bg-green-500">02</div>
+      <div class="p-10 bg-blue-500">03</div>
+      <div class="p-10 bg-red-500">04</div>
+   </div>
+   <p>Flex justify-start</p>
+   <div class="flex items-center justify-start gap-2">
+      <div class="p-10 bg-red-500">01</div>
+      <div class="p-10 bg-green-500">02</div>
+      <div class="p-10 bg-blue-500">03</div>
+      <div class="p-10 bg-red-500">04</div>
+   </div>
+   <p>Flex justify-between</p>
+   <div class="flex items-center justify-between gap-2">
+      <div class="p-10 bg-red-500">01</div>
+      <div class="p-10 bg-green-500">02</div>
+      <div class="p-10 bg-blue-500">03</div>
+      <div class="p-10 bg-red-500">04</div>
+   </div>
+   <p>Flex justify-between wrap</p>
+   <div class="flex flex-wrap items-center justify-between gap-2">
+      <div class="p-10 bg-red-500">01</div>
+      <div class="p-10 bg-green-500">02</div>
+      <div class="p-10 bg-blue-500">03</div>
+      <div class="p-10 bg-red-500">04</div>
+      <div class="p-10 bg-pink-500">05</div>
+      <div class="p-10 bg-green-500">06</div>
+      <div class="p-10 bg-red-500">07</div>
+   </div>
+   <p>Flex justify-between nowrap</p>
+   <div class="flex flex-nowrap items-center justify-between gap-2">
+      <div class="p-10 bg-red-500">01</div>
+      <div class="p-10 bg-green-500">02</div>
+      <div class="p-10 bg-blue-500">03</div>
+      <div class="p-10 bg-red-500">04</div>
+      <div class="p-10 bg-pink-500">05</div>
+      <div class="p-10 bg-green-500">06</div>
+      <div class="p-10 bg-red-500">07</div>
+   </div>
+   <p>Flex justify-between column</p>
+   <div class="flex flex-col items-center justify-between gap-2">
+      <div class="order-7 p-10 bg-red-500">01</div>
+      <div class="p-10 bg-green-500">02</div>
+      <div class="p-10 bg-blue-500">03</div>
+      <div class="p-10 bg-red-500">04</div>
+      <div class="p-10 bg-pink-500">05</div>
+      <div class="p-10 bg-green-500">06</div>
+      <div class="p-10 bg-red-500">07</div>
+   </div>
+   <p>Flex shrink</p>
+   <div class="flex w-full bg-blue-500 gap-1">
+      <div class="flex-initial w-64 p-10 bg-red-500">01</div>
+      <div class="flex-none p-10 bg-green-500">02</div>
+      <div class="shrink p-10 bg-blue-500">03</div>
+      <div class="shrin-0 p-10 bg-red-500">04</div>
+   </div>
+</body>
+
+</html>
