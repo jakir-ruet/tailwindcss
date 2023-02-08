@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Breakpoint Classes & Media Queries</title>
+   <link rel="stylesheet" href="../libs/fontawesome/css/all.min.css">
+   <script src="https://cdn.tailwindcss.com"></script>
+</head>
+   <body style="margin-bottom: 50px;">
+      <div class="h-32 sm:bg-green-500 md:bg-blue-500 lg:bg-red-500 xl:bg-pink-500">hello, breakpoint</div>
+   </body>
+   <script>
+      function showBowserWidth(){
+         const width = window.innerWidth
+         document.querySelector('div').innerText = `Width: ${width}px`
+      }
+      window.onload = showBowserWidth
+      window.onresize = showBowserWidth
+   </script>
+</html>
